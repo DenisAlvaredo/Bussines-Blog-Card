@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body, #container, #user {
+    display: flex;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #F2F5F9;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    flex-direction: column;
+    width: 70%;
+    max-width: 23rem;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: #FFFFFF;
+}
+
+#images {
+    height: 15.40rem;
+}
+
+#card {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#overlay {
+    position: relative;
+    bottom: 61px;
+    width: 100%
+}
+
+#info {
+    padding: 0 25px 20px 25px;
+}
+
+hr {
+    width: 115%;
+    right: 8%;
+    position: relative;
+    border: 1px solid #E5EAF0;
+    margin: 20px 0;
+}
+
+#user {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#data {
+    margin-left: 10px;
+}
+
+#avatar {
+    width: 3rem;
+    border-radius: 50px;
+}
+
+#title, #name {
+    color: #111729;
+}
+
+#text, #job {
+    color: #677489;
+}
+
+#title {
+    font-size: 1.5rem;
+}
+
+#name, #text, #job {
+    font-size: 1rem;
+}
+#name, #job {
+    margin: 6px 0;
+}
